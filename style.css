@@ -1,0 +1,108 @@
+/* Set the font family and background color for the entire page */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #f2c14e;
+}
+
+/* Style the header with a solid color background and white text */
+header {
+  background-image: url("testi1.png");
+  height: 600px;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Add some padding and a border to the dropdown menu */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  z-index: 1;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style the links in the dropdown menu */
+.dropdown-content a {
+  display: block;
+  color: #333;
+  padding: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+/* Change the background color of the links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Style the main content with some padding and a border */
+main {
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: white;
+}
+
+/* Style the heading with a gradient background */
+h1 {
+  background-image: linear-gradient(to right, #333, #666);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Style the paragraph with a drop shadow */
+p {
+  font-size: 18px;
+  text-shadow: 1px 1px 1px #ccc;
+}
