@@ -1,12 +1,10 @@
-/* Set the font family and background color for the entire page */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f9f9f9;
 }
 
-/* Style the navigation bar */
 nav {
-  background-color: #333;
+  background-color: #161616;
   color: white;
   padding: 10px 20px;
 }
@@ -37,7 +35,6 @@ nav a:hover {
   color: #f2c14e;
 }
 
-/* Style the header with a solid color background and white text */
 header {
   background-image: url("testi1.png");
   height: 600px;
@@ -49,7 +46,6 @@ header {
   align-items: center;
 }
 
-/* Add some padding and a border to the dropdown menu */
 .dropdown {
   position: relative;
 }
@@ -65,12 +61,10 @@ header {
   border: 1px solid #ddd;
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* Style the links in the dropdown menu */
 .dropdown-content a {
   display: block;
   color: #333;
@@ -79,21 +73,47 @@ header {
   transition: background-color 0.3s;
 }
 
-/* Change the background color of the links on hover */
+.logo {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 10px;
+  height: 10px;
+  background-image: url('logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
 .dropdown-content a:hover {
   background-color: #ddd;
 }
 
-/* Style the main content with some padding and a border */
 main {
   padding: 20px;
   border: 1px solid #ddd;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-/* Style the heading with a gradient background */
+.contact-info {
+  text-align: center;
+}
+
+.map {
+  float: right;
+  margin-left: 20px;
+}
+
 h1 {
-  background-image: linear-gradient(to right, #333, #666);
+  background-image: linear-gradient(to right, #333, #131313);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -101,7 +121,6 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* Style the paragraph with a drop shadow */
 p {
   font-size: 18px;
   text-shadow: 1px 1px 1px #ccc;
